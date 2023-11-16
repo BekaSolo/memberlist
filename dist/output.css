@@ -892,12 +892,12 @@ video {
   height: 1.25rem;
 }
 
-.h-\[80vh\] {
-  height: 80vh;
+.h-\[75\%\] {
+  height: 75%;
 }
 
-.h-\[90vh\] {
-  height: 90vh;
+.h-\[80vh\] {
+  height: 80vh;
 }
 
 .h-screen {
@@ -2129,10 +2129,6 @@ video {
   padding-bottom: 1.5rem;
 }
 
-.pb-20 {
-  padding-bottom: 5rem;
-}
-
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -2709,6 +2705,12 @@ video {
 
 .hover\:focus\:text-center:focus:hover {
   text-align: center;
+}
+
+@media (max-width: 980px) {
+  .max-\[980px\]\:h-\[70\%\] {
+    height: 70%;
+  }
 }
 
 @media (min-width: 640px) {
